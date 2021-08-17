@@ -14,13 +14,13 @@ import model.vo.SumaProveedor;
 //Librerías para bases de datos
 import java.sql.SQLException;
 
-public class ControladorRequerimientosReto4 {
+public class ControladorRequerimientosReto5 {
 
     private ProyectoCiudadDao proyectoCiudadDao;
     private LiderCiudadDao liderCiudadDao;
     private SumaProveedorDao sumaProveedorDao;
 
-    public ControladorRequerimientosReto4(){
+    public ControladorRequerimientosReto5(){
         this.proyectoCiudadDao = new ProyectoCiudadDao();
         this.liderCiudadDao = new LiderCiudadDao();
         this.sumaProveedorDao = new SumaProveedorDao();
